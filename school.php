@@ -36,11 +36,11 @@
   				<br><br>
   			</div>
   			<div class="custom-control custom-checkbox mb-3">
-      			<input type="checkbox" class="custom-control-input" id="customCheck" name="studentgender" <?php if (isset($gender) && $studentgender=="female") echo "checked";?> value="male">
+      			<input type="checkbox" class="custom-control-input" id="customCheck" name="studentgender" <?php if (isset($studentgender) && $studentgender=="female") echo "checked";?> value="male">
       			<label class="custom-control-label" for="customCheck">male</label>
    			 </div>
    			 <div class="custom-control custom-checkbox mb-3">
-      			<input type="checkbox" class="custom-control-input" id="customCheck" name="studentgender" <?php if (isset($gender) && $studentgender=="female") echo "checked";?> value="male">>
+      			<input type="checkbox" class="custom-control-input" id="customCheck" name="studentgender" <?php if (isset($studentgender) && $studentgender=="female") echo "checked";?> value="male">>
       			<label class="custom-control-label" for="customCheck">Female</label>
    			 </div>
  			 <div class="form-group padding">
